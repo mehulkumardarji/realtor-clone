@@ -111,9 +111,9 @@ export default function Profile() {
       </div>
     </section>
     <div className="max-w-6xl px-3 mt-6 mx-auto">
-      {!loading && listings.length > 0 &&(
+      {!loading && listings.length > 0 && (
         <>
-          <h2 className=" text-2xl text-center font-semibold">My Listing</h2>
+          <h2 className=" text-2xl text-center font-semibold mb-6 ">My Listing</h2>
           <ul>
             {listings.map((listing) => (
               <ListingItem 
